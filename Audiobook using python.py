@@ -10,7 +10,7 @@ from tkinter import filedialog
 root = tk.Tk()
 root.withdraw()
 
-file_path = filedialog.askopenfilename()#asking for any paf file to choose
+file_path = filedialog.askopenfilename()#asking for any pdf file to choose
 
 #Opening file into read binary mode
 book = open(file_path, 'rb')
